@@ -1,13 +1,13 @@
 
  # Open System Interconnection(OSI) model
 
- -Application Layer
- -Presentation Layer
- -Session Layer
- -Transport Layer
- -Network Layer
- -Data Link Layer
- -Physical Layer
+ ## Application Layer
+ ## Presentation Layer
+ ## Session Layer
+ ## Transport Layer
+ ## Network Layer
+ ## Data Link Layer
+ ## Physical Layer
 
  ## Layer 1 Physical Layer
 
@@ -110,6 +110,37 @@
 . negotiates data transfer syntax for layer 7 
  Encryption : Used to scramble the data whie transmittimg and keep safe from hackerand ensure data confidentiality
  <>Example : media files,pictuers,scripting Languages
+
+ ## Layer 7 Application Layer 
+ Provide Application services where users communicate with the computer
+
+ # Encapsulation and Decapsulation
+
+ process of putting the header(sometimes trailer) to the data 
+ Encapsualation is done from layer 7 to layer 1 and decapsulation from layer 1 to layer 7
+ ## protocol data unit (PDU)
+ -we use pdu to transmit the data and control flags for the data flow
+ -a single unit of information is transmitted in a computer network
+ ## Control Flags
+ |  |  |
+ | ---- | ---- |
+ |SYN(synchronisation)| used to synchronise connection during three way hand shake
+ |ACK(ackonwledgement)| used during 3 way handshake and acknowledges the message recipets of the packets
+ |FIN(Finish)| used to taer doen the connection established in three way handshake
+ |RST(reset)|when client and server recievs the packet if it was not exected during current connections
+ |PSH(Push)|ensure data is given prioritse and processed at the sender and the reciever ends
+ |URG(Urgent)|similar to push and identify incoming data as data
+
+ ### L4 TCP/UDP header
+ add the source and destination ports 
+ ### L3 IP header
+ add  source and destination ip adresses
+ ### L2 ETHERNET header
+ add source and destination mac adresses
+ ### L1 Header
+ tranmits frames as series of 1's and 0's
+ 
   
+
 
 
