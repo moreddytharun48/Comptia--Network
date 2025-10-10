@@ -1,13 +1,13 @@
 
  # Open System Interconnection(OSI) model
 
- ## Application Layer
- ## Presentation Layer
- ## Session Layer
- ## Transport Layer
- ## Network Layer
- ## Data Link Layer
- ## Physical Layer
+ ## .Application Layer
+ ## .Presentation Layer
+ ## .Session Layer
+ ## .Transport Layer
+ ## .Network Layer
+ ## .Data Link Layer
+ ## .Physical Layer
 
  ## Layer 1 Physical Layer
 
@@ -141,6 +141,7 @@
  tranmits frames as series of 1's and 0's
  
   
+
 
 
 
