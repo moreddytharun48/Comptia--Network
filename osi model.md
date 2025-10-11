@@ -132,15 +132,16 @@
  |URG(Urgent)|similar to push and identify incoming data as data
 
  ### L4 TCP/UDP header
- add the source and destination ports 
+ -add the source and destination ports 
  ### L3 IP header
- add  source and destination ip adresses
+ -add  source and destination ip adresses
  ### L2 ETHERNET header
- add source and destination mac adresses
+ -add source and destination mac adresses
  ### L1 Header
- tranmits frames as series of 1's and 0's
+ -tranmits frames as series of 1's and 0's
  
   
+
 
 
 
