@@ -70,7 +70,7 @@
 
  ## Layer 4 Transpot Layer
 
- Dividing line between the upper and lower layers of osi models
+ Dividing line between the upper layers and lower layers of osi models
  data into segments 
  .Transmission control protocol(TCP) : Connection Orieanted protocol a reliable way to transport segments across network
  .User Datagram protocoln (UDP) : Connectionless unrelaible to transport segments across network
@@ -141,6 +141,7 @@
  -tranmits frames as series of 1's and 0's
  
   
+
 
 
 
