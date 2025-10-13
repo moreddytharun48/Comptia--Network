@@ -11,7 +11,7 @@
 | ephemeral | 49,152 to 65,535 (short lived temporaray ports which are opened for a just small period of time)
 
 BOth well known and registered ports are registered with IANA(Internet assigned numbers authority)
-
+     
 ## TCP(transmission control protocol)
 protocol within the ip with set of rules for exchanging the data
 responsible for relaible transmission of data break down  messages into small packets
