@@ -46,11 +46,12 @@ SMTP for sending emails
 POP3 and IMPA for reciving emails
  ### File transfer ports and protocols
  specialized rules and procedures that are urilized for the transmission of files across network operates on the designed ports
- FTP-used for transferring files between a client and server over a network 
- 20(actual data transfer) 21 (sending control command)
- SFTP/SSH : created to adress the securityconcerns of FTP 22()
-  TFTP(trivial ftp) : more basic version of ftp 69(). DEsigned for sending files whwn minimal security is sufficient
-  SMB(sever message block) : allow computer apps to read writeto files and requestservices from the server program
+ | | |
+ | ---- | ---- |
+ | FTP |used for transferring files between a client and server over a network 20(actual data transfer) 21 (sending control command)
+ |SFTP/SSH | created to adress the securityconcerns of FTP 22()
+ TFTP(trivial ftp) |more basic version of ftp 69(). DEsigned for sending files whwn minimal security is sufficient
+  SMB(sever message block)  445| allow computer apps to read writeto files and requestservices from the server program
   
   
   
