@@ -52,6 +52,15 @@ POP3 and IMPA for reciving emails
  |SFTP/SSH | created to adress the securityconcerns of FTP 22()
  TFTP(trivial ftp) |more basic version of ftp 69(). DEsigned for sending files whwn minimal security is sufficient
   SMB(sever message block)  445| allow computer apps to read writeto files and requestservices from the server program
+  ### Remote Acess Ports And Protocols
+  Buils and manage systems and networks from across the world
+  | | |
+  | ---- | ---- |
+  |SSH|protocol used for secure remote login and other secure network services over an unsecure network(22). IT creates secure encrypted tunnel that can operate text based commands from a remote server
+  |Telnet|(23) Allows a user on one computer to login remotely on another computer.LAcks Encryption
+  |RDP| Remote Desktop Protocol(3389) developed by microsoft to provide users with a gui to connect to another computer over a network connection
+
+  ### Network Service Ports and Protocols
   
   
   
